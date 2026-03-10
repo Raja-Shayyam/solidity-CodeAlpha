@@ -7,55 +7,53 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "Decr_real",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMsgValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sharingEqualETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_Address",
+						"type": "address"
+					}
+				],
+				"name": "takeAddresses",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "Incr_real",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "counter",
-				"outputs": [
-					{
-						"internalType": "uint16",
-						"name": "",
-						"type": "uint16"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "show_fake_Inrementing",
-				"outputs": [
-					{
-						"internalType": "uint16",
-						"name": "",
-						"type": "uint16"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "show_fake_decrementing",
-				"outputs": [
-					{
-						"internalType": "uint16",
-						"name": "",
-						"type": "uint16"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -72,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Counter.sol": "codeAlpha__counter"
+			"contracts/aRyAddresses.sol": "arrayAddresses"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -86,12 +84,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Counter.sol": {
-			"keccak256": "0x2854e8773a8e99a8da2a4abbb322cac9fa2a901f98cb2914fbb822391145a7b6",
+		"contracts/aRyAddresses.sol": {
+			"keccak256": "0xeba9f1f2b3582400f8ef8626c247584447d3170eb4daa502744365f5fff9a180",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3e83c30a4d28846dec0f75b74acb41df59904a237a68b68da0382a7fed864b1d",
-				"dweb:/ipfs/Qmc8PzcQu6PsCtL7Zfp6zvpLXUDgLv8PhpFkGasKuuutGm"
+				"bzz-raw://d26bebab43f925fef74a611f413a653115bfdddcf6756a235d2d9518aa076ec9",
+				"dweb:/ipfs/QmaABmmegaCgiEFjyYENggvCg3fi2W5xLt4oyZ2cJpsA44"
 			]
 		}
 	},

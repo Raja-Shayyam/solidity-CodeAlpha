@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/aRyAddresses.sol": "Name"
+			"contracts/aRyAddresses.sol": "arra"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/aRyAddresses.sol": {
-			"keccak256": "0x539b66c0eb5bb80223f9b0f9fbe101c990e7bbb8064344daba78f8a2294e30f3",
+			"keccak256": "0xc915cd532d9134bdadeaebeabb9c6fd06f1f60c42888060e350abb2df11ba5e6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4525b1fd75e384583ef84d80ad18c82a0406f71659ab3bdd9cbc1e3b7065cc59",
-				"dweb:/ipfs/QmcAtsFPCi6VKH2WVNcaFbdSuqryFxbHbUQiiGHbhGegeN"
+				"bzz-raw://015c60062eebf10019c06a0996fcecf4c3d13c23c475ff6efa2eb1ddd184b23d",
+				"dweb:/ipfs/Qmd8DMhWhFsUW19VyNBpKM5AfdPjdnBdqpSwTV4j3VbWxa"
 			]
 		}
 	},
